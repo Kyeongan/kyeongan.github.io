@@ -1,52 +1,38 @@
 
-# Sustain
+# Vitae
 
-[![Build Status](https://secure.travis-ci.org/biomadeira/sustain.png?branch=gh-pages)](http://travis-ci.org/biomadeira/sustain)
-[![Ruby](https://img.shields.io/badge/ruby-2.1,_2.2-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
-[![Jekyll](https://img.shields.io/badge/jekyll-2.4.0,_3.0.0-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
+[![Build Status](https://secure.travis-ci.org/biomadeira/vitae.png?branch=gh-pages)](http://travis-ci.org/biomadeira/vitae)
 
-Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
+Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
 
 
 ## View the live demo
 
-[Sustain Live Demo](https://biomadeira.github.io/sustain)
+[Vitae Live Demo](https://biomadeira.github.io/vitae)
 
 
 ## Screenshots
 
-**Home page**
-![home page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen1.png)
-
-**Blog page**
-![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)
-
-**Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen3.png)
-
-**Projects page**
-![project page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen4.png)
+![resume page](https://raw.githubusercontent.com/biomadeira/vitae/gh-pages/assets/images/vitae_screen.png)
 
 
 ## How to use it
 
 Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
-Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
-
+Edit the site attributes in *_config.yml* and edit the various entries in *_includes/*.
 
 ## Issues and contributing 
 
-I have tested this install with Ruby v2.2.2p95 (Mac OS RVM) and Jekyll v3.0.0. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/sustain/issues).
+I have tested this install with Ruby v2.2.2p95 (Mac OS RVM) and Jekyll v3.0.0. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/vitae/issues).
 
 Feel free pull-request your patches and fixes.
 
-#### Contributors
-
-[Sumit Murari](https://github.com/murarisumit), November 2015
-
 
 ## Thanks 
+
+A lot of the work had been already done by the Joao. Many thanks to him :smile:
 
 Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
 
