@@ -11,20 +11,20 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: http://kyeongan.github.io/
+baseurl: /kyeongan/
+title: Karl Kwon, Ph.D.
+author: Karl Kwon, Ph.D.
 description: Personal blog and resume
 avatar: profile.png
 email: yourname@email.com
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+github: kyeongan/kyeongan # username
+twitter: newmkka
+linkedin: kyeongan
+stackoverflow: users/1033163/karl   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 disqus: username
-google_analytics: UA-69391421-1
+#google_analytics: UA-69391421-1
 
 
 # needed for travis-ci build
