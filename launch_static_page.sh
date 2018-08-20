@@ -9,4 +9,5 @@ PORT=8080
 if [ "$#" -eq 1 ]; then
     PORT=$1
 fi
-python -m SimpleHTTPServer $PORT
+#python -m SimpleHTTPServer $PORT
+python3 -m http.server
