@@ -83,6 +83,15 @@ p.lead {
   color: #BD5D38;
 }
 
+figure {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
