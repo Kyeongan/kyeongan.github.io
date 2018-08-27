@@ -101,6 +101,11 @@ figure > img {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: white;
 }
 
 #sideNav .navbar-toggler:focus {
