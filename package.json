@@ -34,6 +34,7 @@
     "bootstrap": "^4.4.1",
     "fstream": "^1.0.12",
     "jquery": "^3.5.0",
+    "live-server": "^1.2.1",
     "lodash": "^4.17.15",
     "tar": "^4.4.13"
   },
