@@ -1,52 +1,52 @@
 {
-  "title": "Resume",
-  "name": "startbootstrap-resume",
-  "version": "5.0.1",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-  "scripts": {
-    "start": "npx http-server"
-  },
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "axios": "^0.21.1",
-    "bootstrap": "^4.4.1",
-    "fstream": "^1.0.12",
-    "jquery": "^3.5.0",
-    "live-server": "^1.2.1",
-    "lodash": "^4.17.15",
-    "tar": "^4.4.13"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "4.0.0",
-    "gulp-header": "2.0.5",
-    "gulp-rename": "1.4.0",
-    "gulp-sass": "4.0.2",
-    "gulp-uglify": "3.0.1",
-    "minimist": "^1.2.5"
-  }
+	"title": "Resume",
+	"name": "startbootstrap-resume",
+	"version": "5.0.1",
+	"description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+	"scripts": {
+		"start": "npx http-server"
+	},
+	"keywords": [
+		"css",
+		"sass",
+		"html",
+		"responsive",
+		"theme",
+		"template"
+	],
+	"homepage": "https://startbootstrap.com/template-overviews/resume",
+	"bugs": {
+		"url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+		"email": "feedback@startbootstrap.com"
+	},
+	"license": "MIT",
+	"author": "Start Bootstrap",
+	"contributors": [
+		"David Miller (http://davidmiller.io/)"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.13.0",
+		"axios": "^0.21.1",
+		"bootstrap": "^4.4.1",
+		"fstream": "^1.0.12",
+		"jquery": "^3.5.0",
+		"live-server": "^1.2.1",
+		"lodash": "^4.17.15",
+		"tar": "^4.4.13"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.26.14",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean-css": "4.0.0",
+		"gulp-header": "2.0.5",
+		"gulp-rename": "1.4.0",
+		"gulp-sass": "4.0.2",
+		"gulp-uglify": "3.0.1",
+		"minimist": "^1.2.5"
+	}
 }
