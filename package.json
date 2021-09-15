@@ -34,18 +34,18 @@
 		"bootstrap": "^4.4.1",
 		"fstream": "^1.0.12",
 		"jquery": "^3.5.0",
-		"live-server": "^1.2.1",
+		"live-server": "^1.1.0",
 		"lodash": "^4.17.15",
 		"tar": "^4.4.13"
 	},
 	"devDependencies": {
 		"browser-sync": "^2.26.14",
-		"gulp": "^4.0.2",
+		"gulp": "^3.9.1",
 		"gulp-autoprefixer": "^6.1.0",
 		"gulp-clean-css": "4.0.0",
 		"gulp-header": "2.0.5",
 		"gulp-rename": "1.4.0",
-		"gulp-sass": "4.0.2",
+		"gulp-sass": "^5.0.0",
 		"gulp-uglify": "3.0.1",
 		"minimist": "^1.2.5"
 	}
