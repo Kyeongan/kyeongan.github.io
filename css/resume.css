@@ -206,6 +206,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
 	background-color: #c8102e !important;
+	/* background-color: rgb(8 103 194) !important; */
 }
 
 .text-primary {
