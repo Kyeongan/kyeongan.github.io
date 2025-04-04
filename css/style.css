@@ -1,120 +1,169 @@
 .container {
-	width: 1090px;
+  width: 1090px;
 }
 
 #graphic {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 
 #sections {
-	position: relative;
-	display: inline-block;
-	width: 300px;
-	top: 0px;
-	z-index: 90;
-	padding-bottom: 200px;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  top: 0px;
+  z-index: 90;
+  padding-bottom: 200px;
 }
 
 .step {
-	margin-bottom: 200px;
-	font-family: "TiemposTextWeb-Regular", "Georgia";
-	font-size: 16px;
-	line-height: 23px;
-	color: #767678;
+  margin-bottom: 200px;
+  font-family: "TiemposTextWeb-Regular", "Georgia";
+  font-size: 16px;
+  line-height: 23px;
+  color: #767678;
 }
 
 #sections .title {
-	font-family: Arial, Helvetica, "san-serif";
-	font-size: 16px;
-	font-weight: bold;
-	margin-bottom: 2px;
-	color: #262626;
-	line-height: 1.2em;
-	background-color: #87deff;
-	color: white;
-	padding: 10px;
+  font-family: Arial, Helvetica, "san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+  background-color: #87deff;
+  color: white;
+  padding: 10px;
 }
 
 #extra-space {
-	height: 300px;
+  height: 300px;
 }
 
 #main {
-	display: inline-block;
-	position: fixed;
-	/* top: 60px; */
-	z-index: 1;
-	margin-left: 20px;
-	/* height: 600px; */
-	/* width: auto; */
-	/* background-color: #ddd; */
+  display: inline-block;
+  position: fixed;
+  /* top: 60px; */
+  z-index: 1;
+  margin-left: 20px;
+  /* height: 600px; */
+  /* width: auto; */
+  /* background-color: #ddd; */
 }
 
 .echarts {
-	width: 680px;
-	height: 300px;
-	margin-left: 330px;
-	margin-top: -800px;
+  width: 680px;
+  height: 300px;
+  margin-left: 330px;
+  margin-top: -800px;
 }
 
 .incident {
-	fill: #008080;
+  fill: #008080;
 }
 
 .hover {
-	fill: yellow;
+  fill: yellow;
 }
 
 #main .title {
-	font-size: 120px;
-	text-anchor: middle;
+  font-size: 120px;
+  text-anchor: middle;
 }
 
 #main .sub-title {
-	font-size: 47px;
-	text-anchor: middle;
+  font-size: 47px;
+  text-anchor: middle;
 }
 
 #main .content-text {
-	font-size: 30px;
-	text-anchor: middle;
+  font-size: 30px;
+  text-anchor: middle;
 }
 
 .axis path,
 .axis line {
-	fill: none;
-	stroke: #666;
-	shape-rendering: crispEdges;
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
 }
 
 .highlight {
-	fill: #008080;
-	font-weight: bold;
+  fill: #008080;
+  font-weight: bold;
 }
 
 .cough-arrow {
-	stroke: #000;
-	stroke-width: 4px;
+  stroke: #000;
+  stroke-width: 4px;
 }
 
 .axis path,
 .axis line {
-	fill: none;
-	stroke: #000;
-	shape-rendering: crispEdges;
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
 
 h1 {
-	background-color: #87deff;
-	color: white;
-	padding: 10px;
-	font-family: sans-serif;
-	font-size: 35px;
+  background-color: #87deff;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
 }
 
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.resume-item {
+  margin-bottom: 30px;
+}
+
+.resume-content {
+  flex-grow: 1;
+}
+
+.resume-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.resume-date {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.awards-list,
+.certifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.awards-list li,
+.certifications-list li {
+  line-height: 1.5;
+  /* Improved readability */
+  margin-bottom: 10px;
+  /* Spacing between items */
+  display: flex;
+  align-items: center;
+}
+
+.awards-list i,
+.certifications-list i {
+  margin-right: 10px;
+  /* Gold color */
 }
