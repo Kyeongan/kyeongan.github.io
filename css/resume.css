@@ -214,13 +214,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #c8102e;
+  color: rgb(8 103 194);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #810a1e;
+  color: rgb(8 103 194);
 }
 
 .resume-item {
