@@ -1,504 +1,196 @@
-<style>
-	p.card-text {
-		font-size: 0.9rem;
-	}
-</style>
-<link href="style.css" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
 
-<main>
-	<div class="album py-5 bg-light">
-		<div class="container">
-			<div class="row title_header">
-				<p>🎉 Highlights</p>
-			</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Highlights</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <style>
+        p.card-text {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
 
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-				<div class="col">
-					<div class="card shadow-sm">
-						<div class="bd-placeholder-img card-img-top" style="width: 100%; height: 225px;">
-							<video autoplay loop muted playsinline style="width: 100%; height: 100%;">
-								<source src="./resources/images/trendboard.mp4" type="video/mp4">
-								Your browser does not support the video tag.
-							</video>
-						</div>
-						<div class="card-body">
-							<p class="card-text">Trendboard: Real-time data visualization with React, Vite, and Recharts.</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-				
-									<a href="https://data-insider-nyc.github.io/trendboard/" class="btn btn-sm btn-outline-secondary"
-										role="button" aria-disabled="true" target="_blank">
-										Run
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+<body>
+    <main>
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row title_header">
+                    <p>🎉 Highlights</p>
+                </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="https://github.com/Kyeongan/streamlit-nyc-turnstile/raw/main/assets/demo.gif"
-								height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">MTA turnstile usage data for the New York Subway system (Streamlit
-								Python)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <!-- Card 1 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video autoplay loop muted playsinline class="card-img-top" style="width: 100%; height: 225px;">
+                                <source src="./resources/images/trendboard.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Trendboard: Real-time data visualization with React, Vite, and Recharts.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="https://data-insider-nyc.github.io/trendboard/" class="btn btn-sm btn-outline-secondary" target="_blank">Run</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-									<a href="https://kyeongan-streamlit-nyc-turnstile-app-fqqv8e.streamlit.app/"
-										class="btn btn-sm btn-outline-secondary" role="button" aria-disabled="true"
-										target="_blank">
-										Run
-									</a>
-									<a href="https://github.com/Kyeongan/streamlit-nyc-turnstile"
-										class="btn btn-sm btn-outline-secondary" role="button" aria-disabled="true"
-										target="_blank">
-										GitHub
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 2 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="https://github.com/Kyeongan/streamlit-nyc-turnstile/raw/main/assets/demo.gif" class="card-img-top" alt="MTA Turnstile">
+                            <div class="card-body">
+                                <p class="card-text">MTA turnstile usage data for the New York Subway system (Streamlit Python)</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="https://kyeongan-streamlit-nyc-turnstile-app-fqqv8e.streamlit.app/" class="btn btn-sm btn-outline-secondary" target="_blank">Run</a>
+                                    <a href="https://github.com/Kyeongan/streamlit-nyc-turnstile" class="btn btn-sm btn-outline-secondary" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/CandidateTracking.gif" height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Candidate Tracking Visualization in Health Innovation Projects'
-								Recruitment (Streamlit Python)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<a class="btn btn-sm btn-outline-secondary disabled" role="button" aria-disabled="true">
-									Source Code (Private)
-								</a>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 3 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./resources/images/CandidateTracking.gif" class="card-img-top" alt="Candidate Tracking">
+                            <div class="card-body">
+                                <p class="card-text">Candidate Tracking Visualization in Health Innovation Projects' Recruitment (Streamlit Python)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/output-fcc-viz.gif" height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Connect 2 Health (FCC): Mapping Broadband Health in America
-								Platform (JavaScript, eCharts, Postgres)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a href="https://www.fcc.gov/reports-research/maps/connect2health/"
-										class="btn btn-sm btn-outline-secondary" role="button" target="_blank">Run</a>
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 4 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video autoplay loop muted playsinline class="card-img-top" style="width: 100%; height: 225px;">
+                                <source src="./resources/images/output-fcc-viz_short.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Connect 2 Health (FCC): Mapping Broadband Health in America Platform (JavaScript, eCharts, Postgres)</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="https://www.fcc.gov/reports-research/maps/connect2health/" class="btn btn-sm btn-outline-secondary" target="_blank">Run</a>
+                                    <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Card 5 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video autoplay loop muted playsinline class="card-img-top" style="width: 100%; height: 225px;">
+                                <source src="./resources/images/gsa-mineva.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Global SA: MINERVA real-time dashboard processing thousands daily (Vue, Nuxt, GraphQL)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/gsa-mineva.gif" height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Global SA: MINERVA real-time dashboard processing thousands daily
-								(Vue, Nuxt, GraphQL)
-							</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 6 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./resources/images/alue.gif" class="card-img-top" alt="ALUE Benchmark">
+                            <div class="card-body">
+                                <p class="card-text">ALUE Benchmark Leaderboard (Streamlit Python)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/alue.gif" height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">ALUE Benchmark Leaderboard (Streamlit Python)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 7 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./resources/images/maintenance-taxonomy.png" class="card-img-top" alt="Rotorcraft Maintenance">
+                            <div class="card-body">
+                                <p class="card-text">Rotorcraft Maintenance Taxonomy (JavaScript)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/maintenance-taxonomy.png" height="120%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Rotorcraft Maintenance Taxonomy (JavaScript)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 8 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./resources/images/barrier.gif" class="card-img-top" alt="Barrier Tree Taxonomy">
+                            <div class="card-body">
+                                <p class="card-text">Visualization of Barrier Tree Taxonomy (JavaScript)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/barrier.gif" height="150%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Visualization of Barrier Tree Taxonomy (JavaScript)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <!-- Card 9 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <video autoplay loop muted playsinline class="card-img-top" style="width: 100%; height: 225px;">
+                                <source src="./resources/images/tair.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">TAIR NLP Dashboard (Streamlit Python)</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/tair.gif" height="150%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">TAIR NLP Dashboard (Streamlit Python)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+							<img src="./resources/images/target-level-of-safety.png" class="card-img-top" alt="Target Level of Safety">
+                            <div class="card-body">
+                                <p class="card-text">Target Level of Safety</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card shadow-sm">
+							<img src="./resources/images/foqa-actual-expected-ingestion.gif" class="card-img-top" alt="FOQA Monthly Data Ingestion">
+                            <div class="card-body">
+                                <p class="card-text">FOQA Monthly Data Ingestion</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+							<img src="./resources/images/loss-control-detection.gif" class="card-img-top" alt="Loss of control In-flight Detection">
+                            <div class="card-body">
+                                <p class="card-text">Loss of control In-flight Detection</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+							<img src="./resources/images/timeseries.png" class="card-img-top" alt="Timeseries Forecasting">
+                            <div class="card-body">
+                                <p class="card-text">Timeseries Forecasting</p>
+                                <a class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">Source Code (Private)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
-				<!-- <div class="col">
-						<div class="card shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-								preserveAspectRatio="xMidYMid slice" focusable="false">
-								<title></title>
-								<image href="./resources/images/surplus.gif" height="150%">
-								</image>
-								<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-							</svg>
-							<div class="card-body">
-								<p class="card-text">Surplus vs Deficit of Delivery and Future Work</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="./src/cobi-surplus-deficit.html"
-											class="btn btn-sm btn-outline-secondary" role="button"
-											target="_blank">Run</a>
-									</div>
-									<small class="text-muted">
-									</small>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-				<!-- <div class="col">
-						<div class="card shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-								preserveAspectRatio="xMidYMid slice" focusable="false">
-								<title></title>
-								<image href="./resources/images/cobi.png" height="110%">
-								</image>
-								<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-							</svg>
-							<div class="card-body">
-								<p class="card-text">CAASD Operations and Business Intelligence</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-outline-secondary" role="button"
-											target="_blank">Run</a>
-									</div>
-									<small class="text-muted">
-									</small>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/target-level-of-safety.png" height="110%">
-							</image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Target Level of Safety</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-								<small class="text-muted">
-								</small>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- <div class="col">
-						<div class="card shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-								preserveAspectRatio="xMidYMid slice" focusable="false">
-								<title></title>
-								<image href="./resources/images/RAISE-QuickSight-Screen-2022.png" height="110%">
-								</image>
-								<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-							</svg>
-							<div class="card-body">
-								<p class="card-text">Rotorcraft ASIAS Analytical Capabilities</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-outline-secondary" role="button"
-											target="_blank">Run</a>
-									</div>
-									<small class="text-muted">
-									</small>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-				<!-- <div class="col">
-						<div class="card shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-								preserveAspectRatio="xMidYMid slice" focusable="false">
-								<title></title>
-								<image href="./resources/images/wiki.png" height="110%">
-								</image>
-								<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-							</svg>
-							<div class="card-body">
-								<p class="card-text">Safety Performance Measures Assessment</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-outline-secondary" role="button"
-											target="_blank">Run</a>
-									</div>
-									<small class="text-muted">
-									</small>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-
-				<!-- <div class="col">
-						<div class="card shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-								preserveAspectRatio="xMidYMid slice" focusable="false">
-								<title></title>
-								<image href="./resources/images/unstable-approach/Slide5.png" height="110%">
-								</image>
-								<text x="50%" y="50%" fill="#000000" dy=".3em"></text>
-							</svg>
-							<div class="card-body">
-								<p class="card-text">Anomaly Detection</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="./src/anomaly-detection.html" class="btn btn-sm btn-outline-secondary"
-											role="button" target="_blank">Run</a>
-									</div>
-									<small class="text-muted">2021</small>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/foqa-actual-expected-ingestion.gif" height="120%">
-							</image>
-							<!-- <text x="50%" y="50%" fill="#000000" dy=".3em">FOQA Data Ingestion</text> -->
-						</svg>
-						<div class="card-body">
-							<p class="card-text">FOQA Monthly Data Ingestion (animation)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/loss-control-detection.gif" width="130%"></image>
-							<!-- <text x="50%" y="50%" fill="#000000" dy=".3em">LOC-I Detection</text> -->
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Loss of control In-flight Detection (animation)</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col">
-					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-							xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-							preserveAspectRatio="xMidYMid slice" focusable="false">
-							<title></title>
-							<image href="./resources/images/timeseries.png" width="100%"></image>
-							<text x="50%" y="50%" fill="#000000" dy=".3em" z-index="0">
-								Timeseries Forecasting</text>
-						</svg>
-						<div class="card-body">
-							<p class="card-text">Timeseries Forecasting</p>
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<a class="btn btn-sm btn-outline-secondary disabled" role="button"
-										aria-disabled="true">
-										Source Code (Private)
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-
-</main>
-
-<footer class="text-muted py-5">
-	<div class="container">
-		<p class="float-end mb-1">
-			<a href="#">Back to top</a>
-		</p>
-		<p class="mb-1">Karl Kwon @ <a href="https://github.com/Kyeongan" target="_blank">GitHub</a>
-		</p>
-	</div>
-</footer>
-
-
-
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1">Karl Kwon @ <a href="https://github.com/Kyeongan" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</body>
 
 </html>
